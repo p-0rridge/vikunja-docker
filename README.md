@@ -1,10 +1,10 @@
 # Vikunja in Docker
 
-A self-hosted Vikunja task manager running in Docker Compose. As the project
-progresses, it will be extended with n8n for automations that talk to Vikunja
-over its REST API.
+A self-hosted Vikunja task manager running in Docker Compose, extended with n8n
+as a separate service. n8n will talk to Vikunja over its REST API once the first
+workflow is built.
 
-The first version uses Vikunja's default database, SQLite.
+This setup uses Vikunja's default database, SQLite.
 
 ## Requirements
 
